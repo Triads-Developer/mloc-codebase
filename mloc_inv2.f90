@@ -51,17 +51,6 @@
 !
 !----------------------------------------------------------------------------------------
 
-module mloc_inv2
-
-   use mloc_declare
-   use mloc_allocate
-   use mloc_math
-   ! ... rest of your code ...
-
-
-
-
-
 module mloc_inv
 
    use mloc_declare
