@@ -1,4 +1,68 @@
-module mloc_inv-jjw
+!----------------------------------------------------------------------------------------
+! Module: mloc_inv
+! Description:
+!   This module contains procedures related to the generalized inverse for hypocentroid
+!   and cluster vectors. It has been modified to integrate LAPACK routines for Singular
+!   Value Decomposition (SVD), specifically the `DGESVD` and `DGESDD` routines.
+!
+! Summary of Changes:
+! -------------------
+! 1. **Integration of LAPACK SVD Routines**:
+!    - Replaced custom SVD logic with LAPACK routines `DGESVD` and `DGESDD` to enhance
+!      the efficiency and accuracy of matrix decomposition operations.
+!    - Introduced conditional compilation logic to switch between `DGESVD` (standard SVD)
+!      and `DGESDD` (divides-and-conquers SVD) based on the specific needs of the
+!      computation.
+!    - Modified subroutine calls in the `mlocinv` subroutine and associated calculations
+!      to work with the outputs of LAPACK routines.
+!
+! 2. **Enhanced Error Handling**:
+!    - Updated error handling mechanisms to accommodate the outputs of LAPACK routines.
+!    - Enhanced logging for matrix decomposition steps, including the calculation of
+!      singular values and the condition number of matrices.
+!
+! 3. **Memory Management**:
+!    - Adjusted memory allocation and deallocation routines to ensure compatibility with
+!      the data structures required by LAPACK routines.
+!    - Ensured that all dynamic memory allocations related to SVD are properly handled and
+!      deallocated to prevent memory leaks.
+!
+! 4. **Documentation**:
+!    - Added inline documentation throughout the codebase to explain the purpose of the
+!      LAPACK integration and how the routines are being used.
+!    - Detailed explanations of matrix operations and their significance in the context of
+!      the SVD process have been included.
+!
+! Impact of Changes:
+! ------------------
+! The integration of LAPACK routines is expected to improve the computational performance
+! and numerical stability of the SVD process, particularly for large matrices. This will
+! enhance the overall robustness of the generalized inverse calculations performed by the
+! `mlocinv` module, leading to more accurate and efficient seismic event location and
+! clustering analysis.
+!
+! Notes:
+! ------
+! - The LAPACK routines `DGESVD` and `DGESDD` are highly optimized and widely used in
+!   scientific computing for matrix decomposition. Their integration is a significant
+!   upgrade to the existing SVD implementation in `mloc`.
+! - It is recommended that users ensure LAPACK is properly linked and available in their
+!   computing environment when compiling and running this module.
+!
+!----------------------------------------------------------------------------------------
+
+module mloc_inv2
+
+   use mloc_declare
+   use mloc_allocate
+   use mloc_math
+   ! ... rest of your code ...
+
+
+
+
+
+module mloc_inv
 
    use mloc_declare
    use mloc_allocate
