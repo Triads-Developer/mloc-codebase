@@ -1,0 +1,55 @@
+3 Stations suspected of reporting bogus or unreliable depth phase readings. Epoch dates refer to time period of bogus data.
+BJI   ISC  .IR        40.0403  116.1750    43       1997001         Beijing, China
+BJT   ISC  .IR        40.0183  116.1680   197       1997001         Baijiatuau, Beijing, China
+BNX   ISC  .IR        45.7394  127.4045   227       1997001         BinXian, Heilongjiang, China
+BTO   ISC  .IR        40.6056  110.0208  1114       1997001         Baotou, Nei Monggol Zizhiqu, China
+CD2   ISC  .IR        30.9100  103.7580   628       1997001         Chengdu, Sichuan, China
+CN2   ISC  .IR        43.8014  125.4480   230       1997001         Changchun, Jilin, China
+DL2   ISC  .IR        38.9061  121.6280    62       1997001         Dalian, Liaoning, China
+ENH   ISC  .IR        30.2718  109.4870   487       1997001         Enshi, Hubei, China
+GOMU  ISC  .IR        36.1984   94.8145  3121       1997001         GeErMu, Qinghai, China
+GTA   ISC  .IR        39.4106   99.8144  1341       1997001         Gaotai, Gansu, China
+GYA   ISC  .IR        26.4586  106.6640  1162       1997001         Guiyang, Guizhou, China
+HEH   ISC  .IR        50.2534  127.4127   215       1997001         Hei He, Heilongjiang, China
+HHC   ISC  .IR        40.8494  111.5640  1169       1997001         Hu-ho-hao-te, Nei Monggol Zizhiqu, China
+HIA   ISC  .IR        49.2667  119.7420   610       1997001         Hailar, Nei Monggol Zizhiqu, China
+KMI   ISC  .IR        25.1233  102.7400  1940       1997001         Kunming, Yunnan, China
+KSH   ISC  .IR        39.5167   75.9731  1314       1997001         Kashi, Xinjiang Uygur Zizhiqu, China
+LSA   ISC  .IR        29.7000   91.1500  3789       1997001         Lhasa, Xizang Zizhiqu, China
+LYN   ISC  .IR        34.551   112.468    170       1997001         LuoYang, Henan, China
+LZH   ISC  .IR        36.0867  103.8440  1560       1997001         Lanzhou, Gansu, China
+MDJ   ISC  .IR        44.6164  129.5920   250       1997001         Mudanjiang, Jilin, China
+NJ2   ISC  .IR        32.0517  118.8540    45       1997001         Nanjing, Jiangsu, China
+PZH   ISC  .IR        26.5033  101.7425  1190       1997001         Panzhihua, Sichuan, China
+QIZ   ISC  .IR        19.0294  109.8430   230       1997001         Qiongzhong, Hainan Dao, China
+QZH   ISC  .IR        24.9431  118.5920    21       1997001         Quanzhou, Fujian, China
+SNY   ISC  .IR        41.8278  123.5780    54       1997001         Shenyang, Liaoning, China
+SSE   ISC  .IR        31.0956  121.1867    15       1997001         Sheshan, Jiangsu, China
+TIA   ISC  .IR        36.2114  117.1240   300       1997001         Tai'an, Shandong, China
+TIY   ISC  .IR        37.7131  112.4340   850       1997001         Taiyuan, Shanxi, China
+TNCH  ISC  .IR        25.0289   98.5197  1630       1997001         TengChong, Yunnan, China
+WHN   ISC  .IR        30.5436  114.3500    26       1997001         Wuhan, Hubei, China
+WMQ   ISC  .IR        43.8138   87.7049   850       1997001         Urumqi, Xinjiang Uygur Zizhiqu, China
+XAN   ISC  .IR        34.0394  108.9214   630       1997001         Xi'an, Shaanxi, China
+XLT   ISC  .IR        43.8998  116.0805  1027       1997001         Xi Lin Hao Te, Inner Mongolia
+ABNA  ISC  .IR        48.6705   15.4332   571                       Allensteig Bunker Niederösterreich, Austria
+ABTA  ISC  .IR        46.7474   12.5123  1041                       Abfaltersbach, Austria
+ARSA  ISC  .IR        47.2505   15.5232   577                       Arzberg, Austria
+BIOA  ISC  .IR        47.6913   13.6383   614                       Bad Ischl, Austria
+CONA  ISC  .IR        47.9283   15.8617  1046                       Conrad Observatory, Austria
+DAVA  ISC  .IR        47.2867    9.8803  1602       1999182         Damuels, Austria
+FETA  ISC  .IR        47.0211   10.7291  1632       2006341         Feichten, Austria
+KBA   ISC  .IR        47.0784   13.3447  1721                       Koelnbreinsperre, Austria
+LESA  ISC  .IR        47.4243   12.6770  1029                       Schwarzleotal - Leogang, Austria
+MOA   ISC  .IR        47.8495   14.2659   572                       Molln, Austria
+MOTA  ISC  .IR        47.3448   11.1037  1575       1991040         Moosalm, Austria
+MYKA  ISC  .IR        46.6299   13.6416   909                       Terra Mystica, Austria
+OBKA  ISC  .IR        46.5092   14.5489  1074                       Obir, Austria
+RETA  ISC  .IR        47.4871   10.7623   965       2006340         Reutte, Austria
+RONA  ISC  .IR        47.6997   16.2963   699                       Rosalia, Austria
+SESA  ISC  .IR        47.1132   14.5668  1972                       Seetaler Alpe, Styria, Austria
+SOKA  ISC  .IR        46.6780   15.0327  1008                       Soboth, Austria
+SQTA  ISC  .IR        47.2205   11.2087  1307       1989121         Sankt Quirin, Austria
+WATA  ISC  .IR        47.3357   11.5763  1492                       Walderalm, Austria
+WINA  ISC  .IR        48.1074   16.0731   417                       Alland / Wienerwald, Austria
+WTTA  ISC  .IR        47.2638   11.6363  1764       1991040         Wattenberg, Austria
